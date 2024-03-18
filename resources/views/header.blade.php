@@ -9,6 +9,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="col-auto d-xl-block d-none me-auto">
             <div class="header_notification d-flex align-items-center text-dark fw-600">
                 {{get_settings('website_title')}}

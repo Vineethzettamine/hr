@@ -14,13 +14,12 @@
                 {{get_settings('website_title')}}
             </div>
         </div>
-        @if(auth()->user()->role != 'admin')
-        <div class="col-auto d-xl-block d-none me-auto">
+        <div class="col-auto d-xl-block d-none ms-auto">
             <div class="header_notification d-flex align-items-center text-dark fw-600">
-                <button id="feedbackButton1"  onclick="location.pathname='/hr/{{auth()->user()->role}}/feedback'" class="btn-form mt-2 mb-3 blink2">{{get_phrase('Report an issue')}}</button>
+                <button id="feedbackButton1" onclick="location.pathname='/hr/{{auth()->user()->role}}/feedback'" class="btn-form mt-2 mb-2 blink2 px-4">{{get_phrase('Feedback')}}</button>
             </div>
         </div>
-        @endif
+
         <div class="col-auto">
             <div class="header-menu">
                 <ul>
@@ -126,7 +125,11 @@
 
 <style>
     
+    ul > li.user-profile > .btn-group > button img {
+    border-radius: 20px;
+    height: 40px;
 
+}
 .blink {
   animation: blink 1.2s infinite;
 }

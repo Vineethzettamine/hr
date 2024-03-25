@@ -48,12 +48,12 @@
 }
 
 .envelope-image-bg {
-  width: 580px;
+  width:590px;
   background-image: url(../images/envelope.png) !important;
   height: 399px;
   background-size: cover;
   /* position: absolute; */
-  margin-left: 3%;
+  margin-left:5%;
 
 }
 .carousel-control-next-icon {
@@ -76,7 +76,7 @@
   color: black;
   margin-top: 8px;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 16px;
 
 }
 
@@ -177,10 +177,10 @@
   background-image: linear-gradient(to right, #CF0F41, #640c23fc);
   margin-top: -3px !important;
 }
-/* .carousel-indicators {
+.carousel-indicators {
   margin-bottom: -2rem;
 }
-.carousel-control-prev-icon {
+/* .carousel-control-prev-icon {
   display: none !important;
 }
 .carousel-control-next-icon {
@@ -239,9 +239,13 @@
   box-sizing: border-box;
   display: grid;
   align-items: center;
-  width: 180px;
+  width: 231px;
   color: white;
-   font-size: 18px;
+   font-size: 13px;
+   line-height: 20px;
+   font-weight: 500;
+   height: 60px;
+
 }
 
 @media (max-width: 400px) {

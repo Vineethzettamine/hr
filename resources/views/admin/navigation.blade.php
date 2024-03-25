@@ -540,5 +540,46 @@
             </div>
         </li>
 
+        <li class="nav-links-li @if ($current_route == 'admin.announcements') showMenu @endif">
+            <div class="iocn-link">
+                <a class="w-100" href="{{ route('admin.announcements') }}">
+                    <div class="sidebar_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-megaphone-fill" viewBox="0 0 16 16">
+  <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25 25 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009l.496.008a64 64 0 0 1 1.51.048m1.39 1.081q.428.032.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a66 66 0 0 1 1.692.064q.491.026.966.06"/>
+</svg>
+                    </div>
+                    <span class="link_name">
+                        {{get_phrase('Announcements')}}
+                    </span>
+                </a>
+            </div>
+        </li>
+
+        <li class="nav-links-li @if ($current_route == 'admin.eotm') showMenu @endif">
+            <div class="iocn-link">
+                <a class="w-100" href="{{ route('admin.eotm') }}">
+                    <div class="sidebar_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"  width="48" height="48" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M4.1 38.2C1.4 34.2 0 29.4 0 24.6C0 11 11 0 24.6 0H133.9c11.2 0 21.7 5.9 27.4 15.5l68.5 114.1c-48.2 6.1-91.3 28.6-123.4 61.9L4.1 38.2zm503.7 0L405.6 191.5c-32.1-33.3-75.2-55.8-123.4-61.9L350.7 15.5C356.5 5.9 366.9 0 378.1 0H487.4C501 0 512 11 512 24.6c0 4.8-1.4 9.6-4.1 13.6zM80 336a176 176 0 1 1 352 0A176 176 0 1 1 80 336zm184.4-94.9c-3.4-7-13.3-7-16.8 0l-22.4 45.4c-1.4 2.8-4 4.7-7 5.1L168 298.9c-7.7 1.1-10.7 10.5-5.2 16l36.3 35.4c2.2 2.2 3.2 5.2 2.7 8.3l-8.6 49.9c-1.3 7.6 6.7 13.5 13.6 9.9l44.8-23.6c2.7-1.4 6-1.4 8.7 0l44.8 23.6c6.9 3.6 14.9-2.2 13.6-9.9l-8.6-49.9c-.5-3 .5-6.1 2.7-8.3l36.3-35.4c5.6-5.4 2.5-14.8-5.2-16l-50.1-7.3c-3-.4-5.7-2.4-7-5.1l-22.4-45.4z"/></svg>
+                    </div>
+                    <span class="link_name">
+                        {{get_phrase('Employee Of The Month')}}
+                    </span>
+                </a>
+            </div>
+        </li>
+
+        <li class="nav-links-li @if ($current_route == 'admin.quotes') showMenu @endif">
+            <div class="iocn-link">
+                <a class="w-100" href="{{ route('admin.quotes') }}">
+                    <div class="sidebar_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"  width="48" height="48" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
+                    </div>
+                    <span class="link_name">
+                        {{get_phrase('Employers Quote')}}
+                    </span>
+                </a>
+            </div>
+        </li>
+
     </ul>
 </div>
